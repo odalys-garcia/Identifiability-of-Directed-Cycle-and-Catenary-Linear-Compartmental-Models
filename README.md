@@ -2,3 +2,7 @@
 This repository contains TXT and PDF files with the data used in the paper of the same name.
 
 Note that files labeled as CYC refer to directed-cycle models and CAT refers to catenary models. The PDF files list the specific type of identifiability of each parameter of a three-compartment catenary model with one input, one output, and up to one leak. The Model Database TXT files list the specific type of identifiability of each parameter of a three, four, and five-compartment model with one input, one output, and the specified number of leaks. The CAT Iterative Tree file contains an example of input-output equations for a three-compartment catenary model with one input, one output, and up to one leak. 
+
+## Optional exact Python verification
+
+[Conjecture 4.6 endpoint check](verification/conjecture_4_6_endpoint/README.md): an independently written positive-parameter endpoint counterexample and a proof of the strict-interior inclusion. Submitted for author assessment; the main identifiability theorem is unaffected.
